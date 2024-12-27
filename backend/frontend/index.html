@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Social Media Platform</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Social Media Platform</h1>
+
+  <div id="login-form">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <button onclick="register()">Register</button>
+  </div>
+
+  <div id="feed">
+    <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+    <button onclick="createPost()">Post</button>
+
+    <div id="posts"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
